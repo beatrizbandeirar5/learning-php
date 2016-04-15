@@ -2,6 +2,6 @@
 	$con = @mysql_connect('localhost','root','');
 	if($con){	
 	
-	mysql_select_db("" ,$con);
+	mysql_select_db("sistema" ,$con);
 	}
 ?>
